@@ -75,6 +75,7 @@
         "react-dom": ">= 16.3.1"
     },
     "dependencies": {
+        "hoist-non-react-statics": "^3.2.1",
         "tiny-uuid": "^1.0.0"
     },
     "jest": {
@@ -90,6 +91,7 @@
             "enzyme-to-json/serializer"
         ],
         "coverageDirectory": "./coverage/",
-        "collectCoverage": true
+        "collectCoverage": true,
+        "testURL": "http://localhost/"
     }
 }
